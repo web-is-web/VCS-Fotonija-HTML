@@ -1,0 +1,139 @@
+.flex {
+	display: block;
+}
+
+
+.ie-top-menu {
+	width: 50%;
+	margin: 0px;
+
+}
+
+
+/* -------------- SLIDER ------------- */
+
+.ie-slide-left, .ie-slide-right {
+	display: inline-block;
+	background: grey;
+}
+.ie-slide {
+	width: 100%;
+}
+
+
+/* ------ SIDE MENU  ------- */
+
+.side-menu {
+	width: 100%;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	border: 1px solid darkgrey;
+}
+
+
+.side-menu-list ul li {
+	display: inline-block;
+	list-style-type: none;
+	border-bottom: 0px dashed grey;
+}
+
+.side-menu-list ul li:last-of-type {
+	border-bottom: 0px dashed grey;
+}
+
+
+
+/* ------------- SHOP ITEMS ------------- */
+
+.shop-items {
+	border: 0px solid grey;
+	justify-content: space-between;
+}
+
+.shop-items footer {
+	position: relative;
+	bottom: 0px;
+	right: 0px;
+}
+.item {
+	vertical-align: top;
+	position: relative;
+	display: inline-block;
+	min-width: 30%;
+	max-width: 30%;
+	
+	margin: 10px 5px;
+	border: 1px solid grey;
+	border-radius: 7px;
+	padding: 5px;
+	text-align: center;
+}
+
+
+
+.item figure {
+	width: 100%;
+	height: 100px;
+	text-align: center;
+
+}
+
+.item figure img {
+	height: 100px;
+	width: 100px;
+	background: url(../img/default_lg.png);
+	background-size: 100%;
+}
+
+
+.item-foto {
+	overflow: hidden;
+	position: relative;
+}
+
+
+.item-description {
+	text-align: left;
+}
+
+.item-discount {
+	position: absolute;
+	bottom: 10px;
+	left: -5px;
+	background: orange;
+	padding: 10px;
+	width: 50px;
+	height: 50px;
+	color: white;
+	font-weight: 900;
+	border-radius: 50%;
+	text-align: center;
+	box-shadow: 5px 5px grey;
+}
+
+
+
+.item .price-del {
+	text-align: right;
+	text-decoration: line-through;
+	font-weight: normal;
+	font-size: 80%;
+	color: grey;
+}
+
+.item .price {
+	text-align: right;
+	font-weight: bolder;
+}
+
+.add-to-cart {
+	text-align: right;
+	padding: 5px 0px;
+}
+
+.btn-add-to-cart {
+	padding: 7px 10px;
+	background: #4AB1CE;
+	text-align: center;
+	color: #348FA9;
+}
